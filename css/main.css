@@ -88,8 +88,39 @@ main p {
   margin: 54px 77px 56px 8px;
 }
 
+.back {
+  display: flex;
+  justify-content: center;
+  margin: 28px 0 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
 footer {
   color: white;
   background-color: black;
   padding: 30px 7px 36px;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+footer h2 {
+  margin-bottom: 0;
+}
+
+.legend {
+  font-size: 12px;
+  margin-bottom: 22px;
+}
+
+footer a {
+  font-size: 10px;
+  text-decoration: none;
+  margin: 0;
+}
+
+footer p {
+  line-height: 1.4;
 }
